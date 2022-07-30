@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorteador</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+
+    <header>
+        <h1>Sorteador</h1>
+    </header>
+
+    <form>
+        <div class="total_numeros">
+            <span>Sortear</span>    
+            <input type="number" name="total" id="total"> 
+            <span>números</span>
+        </div>
+    </form>
+    <div class="numbers">
+        <div class="valor_minimo">
+            <span>entre</span>
+            <input type="number" name="minimo" id="minimo">
+        </div>
+        <div class="valor_maximo">
+            <span>e</span>
+            <input type="number" name="maximo" id="maximo">
+        </div>
+    </div>
+
+    <div class="submit">
+        <button id="btn">SORTEAR AGORA!</button>
+    </div>
+
+    <div id="numbers"></div>
+    
+    <script src="app.js"></script>
+</body>
+
+</html>
