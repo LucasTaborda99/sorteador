@@ -1,7 +1,7 @@
 # sorteador :one:
 Projeto - Sorteador
 
-- Live Demo: 
+- Live Demo: https://sorteador-project.netlify.app
 
 - Desktop:
 
