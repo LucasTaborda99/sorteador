@@ -1,4 +1,4 @@
-# sorteador
+# sorteador :one:
 Projeto - Sorteador
 
 - Live Demo: 
